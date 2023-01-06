@@ -67,6 +67,7 @@ header{
 .container-3{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 150px;
 }
 
 .img{
@@ -81,4 +82,61 @@ header{
 
 /*container-4*/
 
+.container4-div{
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    background-image: ;
+    background-repeat: no-repeat;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(128, 86, 8);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 150px;
+}
+
+.footer-title-1{
+    color: azure;
+    font-size: 25px;
+}
+
+.footer-title-2{
+    color: azure;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.footer-para{
+    color: antiquewhite;
+    margin-top: 5px;
+}
+
+.email, .subscribe-button{
+    margin:0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.email{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color:  rgb(128, 86, 8);
+}
+    
+.subscribe-button{
+    color: rgb(133, 98, 53);
+    padding: 10px;
+    font-weight: bold;
+    border: 0;
+}
+
+::placeholder{
+    color: antiquewhite;
+}
+
+.footer-img{
+    margin-top: 15px;
 }
