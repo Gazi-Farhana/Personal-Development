@@ -69,6 +69,11 @@ header{
     margin-bottom: 150px;
 }
 
+
+.fa-solid {
+    color: rgb(7, 224, 7);
+}
+
 .img{
     margin-left: 90px;
 }
@@ -83,29 +88,51 @@ header{
 
 .container-4{
     margin-bottom: 150px;
+    text-align: center;
 }
 
 .container-4-header{
     font-size: 50px;
     margin-bottom: 40px;
-    text-align: center;
 }
 
 .container-4-para{
     font-size: 25px;
     margin-bottom: 10px;
     margin-bottom: 50px;
-    text-align: center;
 }
 
-.container-4-video{
-    margin-left: 35%;
+
+.container-5{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: 150px auto;
+    border-radius: 12px;
 }
 
 .container5-div{
-    background-image: url('../images/watch.png'), url('../images/gradient2.png');
-    background-image: ;
+    background-image: url(../images/gradient2.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 200px;
+    color: white;
+}
+
+.container5-div h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.button-container-5{
+    color: orangered;
+    background-color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
 }
 
 .footer-container{
@@ -142,8 +169,9 @@ header{
 
 .email{
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     background-color:  rgb(128, 86, 8);
+    border: 1px solid white;
 }
     
 .subscribe-button{
